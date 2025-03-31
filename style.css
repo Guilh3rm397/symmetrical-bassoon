@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(67, 193, 231), rgb(82, 68, 122));
+}
+.box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+}   
+fieldset{
+    border: 3px solid rgb(10, 199, 233);
+
+}
+legend{
+    border: 1px solid rgb(31, 202, 245);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(56, 178, 226);
+    border-radius: 5px;
+}
+.inputbox{
+    position: relative;
+}
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+#submit{
+    background-image: linear-gradient(to right, rgb(118, 72, 170), rgb(1, 7, 5));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}   
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(108, 57, 167), rgb(1, 7, 5));
+}
+input[
+    type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #007bff; 
+    cursor: pointer;
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Médico</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+
+                <legend><br><strong>FORMULÁRIO MÉDICO</strong></br></legend>
+                <br>
+                <h2>QUEM SOU</h2>
+                <div class="inputuser">
+                    <div class="inputbox">
+                        <label for="Bio"><strong>Breve descrição:</strong></label>
+                        <textarea id="sintomas" name="sintomas" rows="2" required></textarea>
+                    </div>
+                </div>
+                <br><hr>
+
+                <p>SEXO</p>
+                 <input type="radio" id="mascolino" value="masculino" class="inputuser" required>
+                 <label for="masculino">Masculino</label>  
+                 <input type="radio" id="feminino" value="feminino" class="inputuser" required>
+                 <label for="feminino">Feminino</label>  
+                 <input type="radio" id="outro" value="outro" class="inputuser" required>
+                 <label for="outro">Outro</label>
+
+                <br><hr>
+
+                <label><h2>ESPECIALIDADES MÉDICAS</h2></label>
+                <input type="checkbox" id="cardiologia" name="especialidades" value="cardiologia">
+                <label for="cardiologia">Cardiologia</label><br>
+
+                <input type="checkbox" id="dermatologia" name="especialidades" value="dermatologia">
+                <label for="dermatologia">Dermatologia</label><br>
+
+                <input type="checkbox" id="neurologia" name="especialidades" value="neurologia">
+                <label for="neurologia">Neurologia</label><br>
+
+                <input type="checkbox" id="ortopedia" name="especialidades" value="ortopedia">
+                <label for="ortopedia">Ortopedia</label><br>
+                <br><hr>
+
+
+                <label for="sintomas"><h2>Sintomas</h2></label>
+                <textarea id="sintomas" name="sintomas" rows="3" required></textarea>
+                
+                <br><hr>
+                
+                <h2>Contato</h2>
+                <div class="inputuser">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" name="name" id="name" class="inputuser" required>
+                   
+                </div>
+                <br><br>
+                <div class="inputuser">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" class="inputuser" required>
+                    
+                </div>
+                <br><br>
+                <div class="inputuser">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                    
+                </div>
+                
+                <br>
+
+                <input type="submit" name="submit" id="submit">
+
+            </fieldset>
+    
+        </form>
+    
+    </div>    
+</body>
+</html>
